@@ -1,15 +1,12 @@
 import React from 'react';
-
+import ToDo from './components/Todo';
 function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <div className='card'>
-        <h2>Title</h2>
-        <div className='actions'>
-          <button className='btn'>Delete</button>
-        </div>
-      </div>
+      <ToDo title="title1" bio="something here 1" />
+      <ToDo title="title2" bio="something here 2" />
+      <ToDo title="title3" />
     </div>
   );
 }

@@ -71,3 +71,7 @@ h1, h2 {
   top: 0;
   left:0;
 }
+
+.mt-2 {
+  margin-top:4%;
+}
