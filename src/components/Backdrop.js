@@ -1,7 +1,7 @@
 import React from 'react';
-
-function BackDrop() {
-    return <div className='backdrop'/>
+//onClick is built in as it is not a custom component
+function BackDrop(props) {
+    return <div className='backdrop' onClick={props.onCancel}/>
 }
 
 export default BackDrop;
