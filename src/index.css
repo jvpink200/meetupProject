@@ -21,3 +21,13 @@ h2 {
   font-size: 1.5rem;
   color: #2c292b;
 }
+
+.li-links {
+    text-decoration:none;
+    color:white;
+}
+
+.li-links:hover {
+    color:skyblue;
+    text-decoration:none;
+}

@@ -9,7 +9,7 @@ import MainNavigation from "./components/layout/MainNavigation";
 
 function App() {
   return (
-    <div>
+    <div className="text-center">
       <MainNavigation />
       <Switch>
         <Route path="/" exact>
